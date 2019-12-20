@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    button {
+      background-color: #4caf50; /* Green */
+      border: none;
+      border-radius: 20px;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 20px 2px;
+      cursor: pointer;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+    }
+    .bt {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .custom {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      margin: auto;
+      width: 80%;
+    }
+    .custom th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      background-color: #4caf50;
+    }
+
+    .custom td,
+    th {
+      border: 4px solid black;
+      padding: 4px;
+    }
+
+    .custom tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    .custom tr:hover {
+      background-color: blue;
+      cursor: pointer;
+    }
+  </style>
+  <body>
+    <h1>Table Example</h1>
+    <button class="bt">KLIK ME</button>
+    <table class="custom">
+      <tr>
+        <th>No</th>
+        <th>Nama</th>
+        <th>NIM</th>
+        <th>Jurusan</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Ferdi Pratama</td>
+        <td>11216050</td>
+        <td>Teknik Informatika</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Ferdi Pratama</td>
+        <td>11216050</td>
+        <td>Ilmu Komputer</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Ferdi Pratama</td>
+        <td>11216050</td>
+        <td>Sistem Informasi</td>
+      </tr>
+    </table>
+  </body>
+</html>
