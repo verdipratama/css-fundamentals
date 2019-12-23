@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <style>
+    h1 {
+      text-align: center;
+      font-size: 50px;
+    }
+    h1 a:link {
+      color: red;
+    }
+    /* mouse over link */
+    h1 a:hover {
+      color: royalblue;
+    }
+
+    /* with class -> mouse over link */
+    .tes a.withclass:hover {
+      color: darkorange;
+    }
+
+    /* EXPERIMENT WITH HOVER */
+    .tool {
+      text-align: center;
+      font-weight: bold;
+      font-size: 50px;
+      cursor: pointer;
+    }
+    .hide {
+      display: none;
+      background-color: yellow;
+      padding: 20px;
+      border: 10px solid black;
+      border-radius: 50px 20px;
+    }
+    .tool:hover > .hide {
+      display: block;
+    }
+  </style>
+  <body>
+    <h1><a href="#0">Testing</a></h1>
+    <h1 class="tes">
+      <a href="#0" class="withclass">With class</a>
+    </h1>
+
+    <!-- PART TWO -->
+    <div class="tool">
+      SIMPE TOOLTIP HOVER
+      <p class="hide">HELLO WORLD</p>
+    </div>
+  </body>
+</html>
