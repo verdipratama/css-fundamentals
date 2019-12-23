@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <style>
+    img {
+      width: 200px;
+      height: 100px;
+
+      /* The opacity property can take a value from 0.0 - 1.0. The lower value, the more transparent: */
+      opacity: 0.5;
+      filter: alpha(opacity=50);
+    }
+    img:hover {
+      opacity: 1;
+      filter: alpha(opacity=100);
+    }
+  </style>
+  <body>
+    <h1>Image Transparency</h1>
+    <p>
+      The opacity property is often used together with the :hover selector to change the opacity on
+      mouse-over:
+    </p>
+    <img src="https://www.w3schools.com/css/img_forest.jpg" alt="Forest" />
+    <img src="https://www.w3schools.com/css/img_mountains.jpg" alt="Mountains" />
+    <img src="https://www.w3schools.com/css/img_5terre.jpg" alt="Italy" />
+  </body>
+</html>
