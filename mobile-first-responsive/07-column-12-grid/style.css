@@ -112,8 +112,12 @@ h4 {
 /* grid testing */
 .projects {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(12, 1fr); /* 12 colomn */
   gap: 10px; /* pemisah dan otomatis */
+}
+
+.projects img {
+  max-width: 100%;
 }
 
 .projects a {
@@ -121,4 +125,22 @@ h4 {
   background: rgb(34, 68, 178);
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 10px;
+}
+
+.projects a:nth-child(1) {
+  /* gambar yang pertama */
+  grid-column: 2/6;
+  grid-row: 1;
+}
+
+.projects a:nth-child(2) {
+  /* gambar yang kedua */
+  grid-column: 8/12;
+  grid-row: 1;
+}
+
+.projects a:nth-child(3) {
+  /* gambar yang ketiga */
+  grid-column: 5/9;
+  grid-row: 1; /* ganti dengan 2 akan kebawah */
 }
