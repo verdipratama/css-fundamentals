@@ -50,9 +50,9 @@ h6 {
 
 .box {
   text-align: center;
-  height: 100px;
-  max-width: 100px;
-  margin: auto; /* biar ketengah */
+  height: 150px;
+  max-width: 150px;
+  margin: auto;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   /* margin-bottom: 20px;  buka ini kalo ga pake flex biar kebawah*/
 }
@@ -62,9 +62,12 @@ h6 {
   background: red;
 }
 
+/* The flex-grow property specifies how much the item will grow relative to the rest of the flexible items inside the same container. */
+
 .two {
   border: 5px solid blue;
   background: blue;
+  flex-grow: 1;
 }
 
 .three {
