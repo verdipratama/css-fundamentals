@@ -52,7 +52,7 @@ h6 {
 .box {
   text-align: center;
   height: 200px;
-  min-width: 200px;
+  flex-basis: 500px; /* sama seperti min width */
   margin: auto;
   margin-bottom: 20px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
