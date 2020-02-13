@@ -10,7 +10,7 @@
 - Control the position, size and spacing of elements relative to their parent elements and each other
 - Works great responsively
 
-# Benefis
+# Benefits
 
 - Create navigation bars and menu
 - Grid Layout
