@@ -16,3 +16,5 @@
 - Grid Layout
 - Bar charts
 - Equal hight and columns
+
+## Di skip dulu yaaa
